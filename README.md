@@ -30,7 +30,6 @@
 多媒体多语言处理工具/
 ├── video_multilang_pipeline.py    # 主视频处理管道
 ├── according_to_src.py           # 字幕翻译工具
-├── test.py                       # 测试脚本
 ├── Input_mp4/                    # 输入视频文件目录
 ├── Output_mp4/                   # 输出视频文件目录
 ├── Subs/                         # 字幕文件目录
@@ -105,13 +104,6 @@ python according_to_src.py
 - 生成双语字幕文件：`电影名.zh&eng.srt`
 - 包含原英文文本和中文翻译
 
-#### 3. 系统测试
-
-```bash
-python test.py
-```
-
-检查系统配置和Whisper模型是否正常工作。
 
 ## ⚙️ 核心技术
 
